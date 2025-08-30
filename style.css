@@ -1,27 +1,25 @@
 body {
   font-family: system-ui, sans-serif;
-  margin: 40px;
-  background-color: #f5f5f5;
-
- body{
-  /* ほかの指定はそのまま */
+  margin: 0; /* 余白を消して全画面背景にする */
   background-image: url("./images/background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+  background-size: cover;       /* 画面いっぱいに拡大縮小 */
+  background-position: center;  /* 中央に配置 */
+  background-repeat: no-repeat; /* 繰り返さない */
 }
 
+/* 見出し */
 h1 {
   color: #007acc;
   text-align: center;
 }
 
+/* 段落 */
 p {
   font-size: 18px;
   text-align: center;
 }
 
+/* ボタン */
 button {
   display: block;
   margin: 20px auto;
