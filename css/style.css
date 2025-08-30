@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: white; /* 文字を白くして読みやすくする */
-  background: url("./images/background.jpg") center/cover no-repeat fixed;
+  background: url("../images/background.jpg") center/cover no-repeat fixed;
   /* ↑ 最後の fixed がポイント */
   min-height: 100vh; /* ページいっぱいに背景を広げる */
   z-index: 0; /* レイヤー制御の基準 */

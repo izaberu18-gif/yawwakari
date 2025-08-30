@@ -1,7 +1,7 @@
 // site-sw.js
 // 版本を上げるだけで古いキャッシュを一掃できる
 //更新を配りたいときは、この数字を1つ上げる
-const CACHE = 'yawwakari-v3';
+const CACHE = 'yawwakari-v4';
 
 const ASSETS = [
   './',
