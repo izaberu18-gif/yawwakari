@@ -1,9 +1,9 @@
-const CACHE = 'yawwakari-v3';
+const CACHE = 'yawwakari-v6'; // ← バージョン上げる
 const ASSETS = [
   './',
   './index.html',
   './style.css',
-  './images/background.jpg', // 背景をキャッシュしたいなら
+  './images/background.png',   // ← ここを background.png に統一
   './images/icon-192.png',
   './images/icon-512.png',
   './images/apple-touch-icon.png',
