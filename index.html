@@ -5,12 +5,24 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>yawwakari</title>
   <!-- css/style.css を参照する -->
-   <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
   <main>
     <h1>🎉🎉🎉🎉🎉新プログラムヨーワカリ！！！！🎉🎉🎉🎉🎉</h1>
-    <p>html/ と css/ に分けて整理してるよ！</p>
+    <p>ぜんちゃんビートタワー13F!! あるすさんはビートタワー12F!!</p>
   </main>
+
+  <!-- Service Worker 登録スクリプト -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker
+          .register('./sw.js')
+          .then(() => console.log('Service Worker registered'))
+          .catch(console.error);
+      });
+    }
+  </script>
 </body>
 </html>
