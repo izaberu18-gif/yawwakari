@@ -1,2 +1,0 @@
-# yawwakari
-riddle
