@@ -1,7 +1,7 @@
 body {
   font-family: system-ui, sans-serif;
   margin: 0; /* 余白を消して全画面背景にする */
-  background-image: url("./images/background.jpg");
+ background: url("./images/background-hd.png") center / cover no-repeat fixed;
   background-size: cover;       /* 画面いっぱいに拡大縮小 */
   background-position: center;  /* 中央に配置 */
   background-repeat: no-repeat; /* 繰り返さない */
